@@ -4,7 +4,11 @@ import 'package:flutter/material.dart';
 void main(){
   runApp(MaterialApp(
     title: "Frses do dia",
-    home: Container(color: Colors.white,),
+    home: Column(children: <Widget> [
+      Text("Usuario"),
+      Text("Senha")
+    ],),
+    //home: Container(color: Colors.white,),
 
   ));
 }
