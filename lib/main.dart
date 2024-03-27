@@ -18,14 +18,25 @@ void main(){
               letterSpacing: 1,//espaco entre as letras
               wordSpacing: 20,//espaçamento entre palavras
               decoration: TextDecoration.lineThrough,//marca ou nãp o texto
-              decorationColor: Colors.black//muda a cor da inha que marca otexto
-
-
+              decorationColor: Colors.black,//muda a cor da inha que marca otexto
             )
-
           ),
+         TextButton(onPressed: (){
+           print("botao precionado");
+         }, child: Text(
+           "clique aqui",
+             style: TextStyle(
+               color: Colors.cyan,
+               fontSize: 40,
+               fontStyle: FontStyle.italic,
+               fontWeight: FontWeight.normal,
+               decorationColor: Colors.black,//muda a cor da inha que marca otexto
+               backgroundColor: Colors.red,
 
 
+             )
+         )
+         )
         ],
       ) ,
     )
